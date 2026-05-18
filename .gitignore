@@ -1,0 +1,36 @@
+# --- Secrets（切勿提交）---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/secrets/
+**/*secret*
+**/*credentials*
+
+# --- OS / 编辑器 ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# --- 依赖与构建产物（实验子目录里常见）---
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+.next/
+out/
+.cache/
+*.log
+
+# --- 本地临时文件 ---
+*.tmp
+*.bak
+.private/

@@ -6,7 +6,8 @@
 |------|------|
 | 昵称 / 代号 | [填写] |
 | 时区 | UTC+8 (Asia/Shanghai) |
-| GitHub | [填写] |
+| GitHub | [@10yu7ian](https://github.com/10yu7ian) |
+| 学习仓库 | [ai-web3-school-cohort-0](https://github.com/10yu7ian/ai-web3-school-cohort-0) |
 | 加入日期 | 2026-05-18 |
 | 当前角色 | [学生 / 开发者 / 转行者 / 创业者 / 研究者] |
 

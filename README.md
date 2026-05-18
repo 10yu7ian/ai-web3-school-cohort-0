@@ -1,4 +1,4 @@
-# AI × Web3 School — Cohort 0
+# AI × Web3 School 
 
 个人学习仓库 · 学习日志 · 任务证明 · 实验记录 · 每日打卡 · Handbook 反馈 · Hackathon 准备
 

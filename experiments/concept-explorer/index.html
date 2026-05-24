@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI/Web3 概念学习器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>AI/Web3 概念学习器</h1>
+      <p class="subtitle">通过类比理解技术概念，用测验巩固学习</p>
+    </header>
+
+    <!-- Concept Selection -->
+    <section id="select-section">
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="搜索概念，如 RAG、智能合约、零知识证明..." />
+      </div>
+      <div id="concept-grid" class="concept-grid"></div>
+    </section>
+
+    <!-- Concept Explanation -->
+    <section id="explain-section" class="hidden">
+      <button id="back-btn" class="btn-back">&larr; 返回概念列表</button>
+      <div class="concept-header">
+        <span id="concept-tag" class="tag"></span>
+        <h2 id="concept-title"></h2>
+      </div>
+
+      <div class="card">
+        <h3>一句话解释</h3>
+        <p id="one-liner" class="one-liner"></p>
+      </div>
+
+      <div class="card">
+        <h3>生活类比</h3>
+        <p id="analogy"></p>
+      </div>
+
+      <div class="card">
+        <h3>技术要点</h3>
+        <ul id="key-points"></ul>
+      </div>
+
+      <div class="card">
+        <h3>实际应用场景</h3>
+        <ul id="use-cases"></ul>
+      </div>
+
+      <div class="card">
+        <h3>与其他概念的关系</h3>
+        <div id="related-concepts" class="related-tags"></div>
+      </div>
+
+      <button id="start-quiz-btn" class="btn-primary">开始测验 &rarr;</button>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz-section" class="hidden">
+      <button id="back-to-explain" class="btn-back">&larr; 返回解释</button>
+      <h2 id="quiz-title"></h2>
+      <div id="quiz-progress" class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <p id="progress-text" class="progress-text"></p>
+
+      <div id="quiz-card" class="card quiz-card">
+        <p id="question-text" class="question-text"></p>
+        <div id="options-container" class="options"></div>
+        <div id="feedback" class="feedback hidden"></div>
+        <button id="next-btn" class="btn-primary hidden">下一题 &rarr;</button>
+      </div>
+    </section>
+
+    <!-- Result Section -->
+    <section id="result-section" class="hidden">
+      <div class="result-card">
+        <h2>测验完成!</h2>
+        <div id="score-display" class="score-display"></div>
+        <p id="result-message"></p>
+        <div class="result-actions">
+          <button id="retry-btn" class="btn-secondary">重新测验</button>
+          <button id="back-to-list" class="btn-primary">学习其他概念</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>AI/Web3 School Cohort 0 | 学习产物</p>
+  </footer>
+
+  <script src="concepts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
